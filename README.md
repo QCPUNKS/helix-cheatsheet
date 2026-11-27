@@ -4,6 +4,15 @@ A one-page visual cheat sheet for the [Helix](https://helix-editor.com) modal te
 
 **[Open the cheat sheet →](https://qcpunks.github.io/helix-cheatsheet/)**
 
+[![Helix cheat sheet preview](assets/preview.png)](https://qcpunks.github.io/helix-cheatsheet/)
+
+<details>
+<summary>See the full page</summary>
+
+![Full Helix cheat sheet](assets/full.png)
+
+</details>
+
 ## What's inside
 
 - **The core idea:** Helix selects first, then acts (`w` then `d` deletes a word). This is the reverse of Vim.

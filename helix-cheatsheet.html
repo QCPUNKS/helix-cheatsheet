@@ -150,6 +150,7 @@ kbd{font-family:var(--mono);font-size:12.5px;font-weight:500;color:var(--ink);
 
 /* insert keys mini-grid */
 .mini-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 22px;margin-top:16px}
+.mini-grid .keys{min-width:0}
 @media(max-width:520px){.mini-grid{grid-template-columns:1fr}}
 
 /* compass */
@@ -416,7 +417,7 @@ footer .kbd-line{margin-top:10px}
   </section>
 
   <!-- LSP -->
-  <section class="card wide">
+  <section class="card">
     <span class="tag c-violet">14 · Programming</span>
     <h2>LSP features</h2>
     <div class="krow"><span class="keys"><kbd>gd</kbd></span><span class="desc">Go to definition</span></div>
@@ -426,7 +427,7 @@ footer .kbd-line{margin-top:10px}
   </section>
 
   <!-- Daily essentials -->
-  <section class="card wide">
+  <section class="card">
     <span class="tag c-violet">15 · Start Here</span>
     <h2>Master these first</h2>
     <div class="eq-examples" style="justify-content:flex-start;margin-top:14px">
